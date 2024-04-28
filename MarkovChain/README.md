@@ -29,18 +29,20 @@ This represents a Markov chain where each state has transitions to every other s
 
 #Assignment
 
- 1. (30\%) Read the article in \url{https://www.geeksforgeeks.org/markov-chains-in-nlp/}, and answer the following questions.
-    1.1. What are N-grams of an input sequence?
-    1.2. How to determine the probability of each element in the transition matrix?
-    1.3. If you want to increase the variety of the sequence generation (every time the outputs are different), what kinds of properties the training texts should be?
 
-2. (30\%) Try the codes in \url{https://www.geeksforgeeks.org/markov-chains-in-nlp/}, and answer the following questions.
-   2.a. Write a new text of at least 15 words as the input.  
-   2.b. Run the program 3 times with different output length and different initial words.  Show the outputs.
-   2.c. Try different N of N-grams. How the N influences the output sequence?  
+1. (30\%) Read the article in https://www.geeksforgeeks.org/markov-chains-in-nlp/, and answer the following questions.
+    1. What are N-grams of an input sequence?
+    2. How to determine the probability of each element in the transition matrix?
+    3. If you want to increase the variety of the sequence generation (every time the outputs are different), what kinds of properties the training texts should be?
+
+2. (30\%) Try the codes in https://www.geeksforgeeks.org/markov-chains-in-nlp/, and answer the following questions.
+    1. Write a new text of at least 15 words as the input.
+    2. Run the program 3 times with different output length and different initial words.  Show the outputs.
+    3. Try different N of N-grams. How the N influences the output sequence?  
 
 3. (40\%) The Stationary Distribution of a Markov chain is a distribution of probabilities that remains unchanged after a transition from one state to another.  
-   3.a. Ask an LLM (Large Language Model), such as ChatGPT, what are the applications of stationary distribution of a Markov chain.  You need to show which prompts are used, and state how you verify the correctness of the results (output by LLMs). 
-   3.b. Ask an LLM, such as ChatGPT, what numerical method is most efficient approach to compute the stationary distribution?  You need to show which prompts are used, and state how you verify the correctness of the results (output by LLMs). 
-   3.c. Implement the method suggested by the LLM. Use the transition matrix generated in problem 2 as an input to compute its stationary distribution.
+    1. Ask an LLM (Large Language Model), such as ChatGPT, what are the applications of stationary distribution of a Markov chain.  You need to show which prompts are used, and state how you verify the correctness of the results (output by LLMs).
+    2. Ask an LLM, such as ChatGPT, what numerical method is the most efficient approach to compute the stationary distribution?  You need to show which prompts are used, and state how you verify the correctness of the results (output by LLMs).
+    3. Implement the method suggested by the LLM. Use the transition matrix generated in question 2.i as an input to compute its stationary distribution.
+    4. The theory of probability matrix is given in the textbook 6.8, Eigenvalues/eigenvector of nonegtive matrices.  Read textbook 6.8 and ask two questions that you are curious most about it.  
         
