@@ -23,6 +23,6 @@ $$
 
 where $P_{ij}$ represents the probability of transitioning from state $S_i$ to state $S_j$.  The pictorial presentation is shown below.
 
-<img src="MC4.png" alt="MC4" class="center" width="400px">
+<img src="MC4.png" alt="MC4" width="400px">
 
 This represents a Markov chain where each state has transitions to every other state, including itself. The probabilities of transitioning between states are indicated by the labels on the edges.
