@@ -3,10 +3,6 @@ Generative AI refers to a class of artificial intelligence systems designed to g
 In this assignment, we will learn how to use Markov chains to generate text sequences. A Markov chain is a stochastic model that describes a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. In other words, it is a memoryless random process.
 
 Formally, a Markov chain is defined by the following components:
-	States: A set of possible states that the system can be in.
-• Transition Probabilities: The probabilities of moving from one state
-to another.
-• Initial State Distribution: The probabilities of starting in each state.
 \begin{itemize}
     \item \textbf{States}: A set of possible states that the system can be in.
     \item \textbf{Transition Probabilities}: The probabilities of moving from one state to another.
