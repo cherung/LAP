@@ -14,21 +14,15 @@ Consider a simple example of a 4-node Markov chain, where each node represents a
 
 $$
 P = \begin{pmatrix}
-0.1 & 0.2 & 0.3 & 0.4 \\
-0.2 & 0.1 & 0.3 & 0.4 \\
-0.3 & 0.2 & 0.1 & 0.4 \\
+0.4 & 0.1 & 0.2 & 0.3 \\
+0.2 & 0.4 & 0.1 & 0.3 \\
+0.3 & 0.2 & 0.4 & 0.1 \\
 0.4 & 0.3 & 0.2 & 0.1 \\
 \end{pmatrix}
 $$
 
-where $P_{ij}$ represents the probability of transitioning from state $S_i$ to state $S_j$.
+where $P_{ij}$ represents the probability of transitioning from state $S_i$ to state $S_j$.  The pictorial presentation is shown below.
 
-```{figure} ../MC4.png
----
-height: 150px
-name: directive-fig
----
-An example of a Markov chain of 4 nodes.
-```
+<img src="MC4.png" alt="MC4" class="center" width="400px">
 
 This represents a Markov chain where each state has transitions to every other state, including itself. The probabilities of transitioning between states are indicated by the labels on the edges.
