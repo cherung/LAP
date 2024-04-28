@@ -1,2 +1,3 @@
 # LAP
-Linear Algebra Project
+Linear Algebra Projects
+This is a repository for linear algebra projects at NTHU.
