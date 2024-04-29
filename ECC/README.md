@@ -4,9 +4,11 @@ Error correction codes (ECC) are techniques used in digital communication and da
 One of famous ECC is Hamming code, used in digital communication and data storage systems. Named after its inventor, Richard Hamming, it adds extra parity bits to transmitted data, enabling the detection and correction of errors that occur during transmission or storage. By assigning parity bits to cover specific combinations of data bits, Hamming code can identify and correct single-bit errors and detect some multiple-bit errors. 
 
 
-For example, the Hamming (7, 4) code uses 7 bits to encode a 4 bit message.  As shown in the following figure, the original message are placed in position 1 to 4.  Next, we add bits to area 5 to 7, so that each circle has even number of 1s. For example: the original data is 1101.  The filled in data is $b_5=0, b_6 = 1, b_7 = 0$.
+For example, the Hamming (7, 4) code uses 7 bits to encode a 4 bit message.  As shown in the following figure, the original message are placed in position 1 to 4.  Next, we add bits to area 5 to 7, so that each circle has even number of 1s. For example: the original message 1011.  The filled in data is $b_5=0, b_6 = 1, b_7 = 0$.  So the final code is 1011010.
   
-<img src="Hamming.png" alt="Hamming" width="200px">
+<img src="Hamming.png" alt="Hamming" width="400px">
+
+When receving the code 1111010, we know something wrong, because in circle A and in circle C, the total numbers of 1s are not even.   Moreover, we also know that the error must be in the intersection of circle A and circle C, but not in the circle B.  So if there is only one bit needed to be correct, that is bit 3, from 1 to 0.  
 
 # 0-1 Vector space
 In this project, we will learn how to use 0-1 vector space to design an ECC.
@@ -34,6 +36,24 @@ $$ m=\begin{bmatrix} 1 \\
                      0 \\ 
                      1 \\ 
                      1 \end{bmatrix}. $$
+
+We can call such vector space $F^4$ and define vector addition and scalar multiplication as follows.
+- Vector addition: If $v$ and $w$ are in $F^4$, $v+w$ is defined as
+  
+  $$ v+w = \begin{bmatrix}
+            v_1+w_1\\
+             v_2+w_2\\
+             v_3+w_3 \\
+             v_4+w_4 \end{bmatrix} $$
+  
+  where $v_i$ and $w_i$ are the elements of $v$ and $w$ respectively.
+- Scalar multiplication: For $v\in F^4$ and $\alpha\in R$, 
+
+  $$ \alpha v = \begin{bmatrix} \alpha v_1 \\
+                               \alpha v_2 \\
+                               \alpha v_3 \\
+                               \alpha v_4 \end{bmatrix} $$
+
 
 # Hamming code
 
