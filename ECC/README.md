@@ -39,8 +39,8 @@ $$ m=\begin{bmatrix} 1 \\
 
 We can call such vector space $F^4$ and define vector addition and scalar multiplication as follows.
 - Vector addition: If $v$ and $w$ are in $F^4$, $v+w$ is defined as
-  
-  $$ v+w=\begin{bmatrix}
+
+$$ v+w=\begin{bmatrix}
             v_1+w_1\\
              v_2+w_2\\
              v_3+w_3 \\
@@ -48,9 +48,9 @@ We can call such vector space $F^4$ and define vector addition and scalar multip
   \end{bmatrix} $$
   
   where $v_i$ and $w_i$ are the elements of $v$ and $w$ respectively.
-- Scalar multiplication: For $v\in F^4$ and $\alpha\in R$, 
+- Scalar multiplication: For $v\in F^4$ and $\alpha\in F$, 
 
-  $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
+$$ \alpha v=\begin{bmatrix} \alpha v_1 \\
                                \alpha v_2 \\
                                \alpha v_3 \\
                                \alpha v_4
