@@ -58,7 +58,7 @@ $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
 
 
 # Assignment
-1. Let matrix $A$ be
+1. Let matrix $A$ be,
 $$ A=\begin{bmatrix}
        1 & 0 & 0 & 0 \\
        0 & 1 & 0 & 1 \\
