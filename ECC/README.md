@@ -58,7 +58,7 @@ $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
 
 
 # Assignment
-1. (10%) Let matrix $A$ be
+1. (12%) Let matrix $A$ be
 
 $$ A =\begin{bmatrix}
        1 & 0 & 0 & 0 \\
@@ -71,9 +71,7 @@ $$ A =\begin{bmatrix}
    \end{bmatrix},$$
 
   Let $x \in F^4$, and use $y=Ax$ to encode $x$.  Show the encoded results for the following $x$.
-  1. $x = [1 \ 0 \ 1 \ 0]^T$.
-  2. $x = [0 \ 0 \ 1 \ 1]^T$.
-  3. $x = [0 \ 0 \ 1 \ 1]^T$.
+  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$. (c)$x = [0 \ 0 \ 1 \ 1]^T$.
 
 2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
 
