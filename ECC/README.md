@@ -4,7 +4,7 @@ Error correction codes (ECC) are techniques used in digital communication and da
 One of famous ECC is Hamming code, used in digital communication and data storage systems. Named after its inventor, Richard Hamming, it adds extra parity bits to transmitted data, enabling the detection and correction of errors that occur during transmission or storage. By assigning parity bits to cover specific combinations of data bits, Hamming code can identify and correct single-bit errors and detect some multiple-bit errors. 
 
 
-For example, the Hamming (7, 4) code uses 7 bits to encode a 4 bit message.  As shown in the following figure, the original message are placed in position 1 to 4.  Next, we add bits to area 5 to 7, so that each circle has even number of 1s. For example: the original message 1011.  The filled in data is $b_5=0, b_6 = 1, b_7 = 0$.  So the final code is 1011010.
+For example, the Hamming (7, 4) code uses 7 bits to encode a 4 bit message.  We can use the set method to illustate the idea.  As shown in the following figure, $A$, $B$, and $C$ are three intersecting sets.  The original message are placed in the area 1 to area 4.  Next, we add bits to area 5 to 7, so that each circle has even number of 1s. For example: the original message 1011.  The filled in data is $b_5=0, b_6 = 1, b_7 = 0$.  So the final code is 1011010.
   
 <img src="Hamming.png" alt="Hamming" width="400px">
 
@@ -58,8 +58,9 @@ $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
 
 
 # Assignment
-1. Let matrix $A$ be,
-$$ A=\begin{bmatrix}
+1. (10%) Let matrix $A$ be
+
+$$ A =\begin{bmatrix}
        1 & 0 & 0 & 0 \\
        0 & 1 & 0 & 1 \\
        0 & 0 & 1 & 0 \\
@@ -67,8 +68,15 @@ $$ A=\begin{bmatrix}
        1 & 1 & 1 & 0 \\
        1 & 1 & 0 & 1 \\
        1 & 0 & 1 & 1
-       \end{bmatrix},$$
-   and $x \in F^4$.  Show that $y = Ax$ is the same as the encoded result using the set method shown in the above figures.
-3. 
+   \end{bmatrix},$$
 
+For $x = [1 1 0 1]^T$, show that $Ax = [1 1 0 1 0 1 0 1]^T$.
+
+2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
+
+3. (10%) Find the null space of $A$.
+   
+4. Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix $H=[h_1, h_2, \ldots, h_k]$.  Show that if the encoded message $y$ does not have any error, $Hy = 0$.
+ 
+   
 
