@@ -71,15 +71,25 @@ $$ A =\begin{bmatrix}
    \end{bmatrix},$$
 
   Let $x \in F^4$, and use $y=Ax$ to encode $x$.  Show the encoded results for the following $x$.
-  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$. (c) $ x = [0 \ 0 \ 1 \ 1]^T $.
+  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$. (c)  $x = [0 \ 0 \ 1 \ 1]^T$.
 
 2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
 
 3. (10%) Find the null space of $A$.
    
-4. (20%) Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix $H=[h_1, h_2, \ldots, h_k]$.  Show that the encoded message $y$ does not have any single bit error if and only if $Hy = 0$.
+4. (20%) Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix
+  
+$$ H=\begin{bmatrix}
+         h_1^T\\
+         h_2^T \\
+         \vdots\\
+         h_k^T
+         \end{bmatrix}.
+$$
+   
+   Show that the encoded message $y$ does not have any single bit error if and only if $Hy = 0$.
 
-5. 
+7. 
  
    
 
