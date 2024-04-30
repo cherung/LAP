@@ -70,7 +70,10 @@ $$ A =\begin{bmatrix}
        1 & 0 & 1 & 1
    \end{bmatrix},$$
 
-  For $x = [1 \ 1 \ 0 \ 1]^T$, show that $Ax = [1 \ 1 \ 0 \ 1 \  0 \  1 \ 0 \ 1]^T$.
+  Let $x \in F^4$, and use $y=Ax$ to encode $x$.  Show the encoded results for the following $x$.
+  1. $x = [1 \ 0 \ 1 \ 0]^T$.
+  2. $x = [0 \ 0 \ 1 \ 1]^T$.
+  3. $x = [0 \ 0 \ 1 \ 1]^T$.
 
 2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
 
