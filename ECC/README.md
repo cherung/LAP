@@ -76,7 +76,7 @@ $$ A =\begin{bmatrix}
 
 3. (10%) Find the null space of $A$.
    
-4. (20%) Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix $H=[h_1, h_2, \ldots, h_k]$.  Show that the encoded message $y$ does not have any error if and only if $Hy = 0$.
+4. (20%) Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix $H=[h_1, h_2, \ldots, h_k]$.  Show that the encoded message $y$ does not have any single bit error if and only if $Hy = 0$.
 
 5. 
  
