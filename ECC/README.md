@@ -92,4 +92,4 @@ $$
 
 5. (20%) Show that with single bit error, if $Hy = v \ne 0$, $v$ must be a column vector of $H$.  Suppose $v$ is the $i$-th column vector of $H$, the $i$-th element of $x$ has an error.
 
-6. (20%) The size of $H$ is $3\times 7$. Question 5 imples each column vector of $H$ is unique, and there are 7 column vectors of $H$.  For $F^3$, th 7 column vectors contain all possible combinations of $F^3$ except 0.  Could you explain why $H$ has such wonderful properties? 
+6. (20%) Show that all column vectors of $H$ are different.
