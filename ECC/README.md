@@ -70,13 +70,15 @@ $$ A =\begin{bmatrix}
        1 & 0 & 1 & 1
    \end{bmatrix},$$
 
-For $x = [1 1 0 1]^T$, show that $Ax = [1 1 0 1 0 1 0 1]^T$.
+  For $x = [1 \ 1 \ 0 \ 1]^T$, show that $Ax = [1 \ 1 \ 0 \ 1 \  0 \  1 \ 0 \ 1]^T$.
 
 2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
 
 3. (10%) Find the null space of $A$.
    
-4. Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix $H=[h_1, h_2, \ldots, h_k]$.  Show that if the encoded message $y$ does not have any error, $Hy = 0$.
+4. (20%) Suppose the null space of $A$ is span($h_1, h_2, \ldots, h_k$) and let matrix $H=[h_1, h_2, \ldots, h_k]$.  Show that the encoded message $y$ does not have any error if and only if $Hy = 0$.
+
+5. 
  
    
 
