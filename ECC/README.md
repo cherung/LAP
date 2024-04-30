@@ -59,8 +59,7 @@ $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
 
 # Assignment
 1. Let matrix $A$ be
-$$
-A = \begin{bmatrix}
+$$ A=\begin{bmatrix}
        1 & 0 & 0 & 0 \\
        0 & 1 & 0 & 1 \\
        0 & 0 & 1 & 0 \\
@@ -68,8 +67,7 @@ A = \begin{bmatrix}
        1 & 1 & 1 & 0 \\
        1 & 1 & 0 & 1 \\
        1 & 0 & 1 & 1
-       \end{bmatrix},
-$$
+       \end{bmatrix},$$
    and $x \in F^4$.  Show that $y = Ax$ is the same as the encoded result using the set method shown in the above figures.
 3. 
 
