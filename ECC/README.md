@@ -71,7 +71,7 @@ $$ A =\begin{bmatrix}
    \end{bmatrix},$$
 
   Let $x \in F^4$, and use $y=Ax$ to encode $x$.  Show the encoded results for the following $x$.
-  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$. (c)$x = [0 \ 0 \ 1 \ 1]^T$.
+  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$. (c) $ x = [0 \ 0 \ 1 \ 1]^T $.
 
 2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
 
