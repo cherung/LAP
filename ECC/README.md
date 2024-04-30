@@ -58,7 +58,7 @@ $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
 
 
 # Assignment
-1. (12%) Let matrix $A$ be
+1. (10%) Let matrix $A$ be
 
 $$ A =\begin{bmatrix}
        1 & 0 & 0 & 0 \\
@@ -71,7 +71,7 @@ $$ A =\begin{bmatrix}
    \end{bmatrix},$$
 
   Let $x \in F^4$, and use $y=Ax$ to encode $x$.  Show the encoded results for the following $x$.
-  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$. (c)  $x = [0 \ 0 \ 1 \ 1]^T$.
+  (a) $x = [1 \ 0 \ 1 \ 0]^T$. (b) $x = [0 \ 0 \ 1 \ 1]^T$.
 
 2. (20%) For $x \in F^4$, show that $y = Ax$ is the same as the encoded result using the set method.
 
@@ -92,4 +92,4 @@ $$
 
 5. (20%) Show that with single bit error, if $Hy = v \ne 0$, $v$ must be a column vector of $H$.  Suppose $v$ is the $i$-th column vector of $H$, the $i$-th element of $x$ has an error.
 
-6. (20%) Show that all column vectors of $H$ are different.
+6. (20%) In this case, you will find out that all column vectors of $H$ are different.  What are the necessary conditions that make all column vectors of $H$ different. 
