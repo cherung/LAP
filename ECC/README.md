@@ -11,7 +11,7 @@ For example, the Hamming (7, 4) code uses 7 bits to encode a 4 bit message.  As 
 When receving the code 1111010, we know something wrong, because in circle A and in circle C, the total numbers of 1s are not even.   Moreover, we also know that the error must be in the intersection of circle A and circle C, but not in the circle B.  So if there is only one bit needed to be correct, that is bit 3, from 1 to 0.  
 
 # 0-1 Vector space
-In this project, we will learn how to use 0-1 vector space to design an ECC.
+In this project, we will learn how to use 0-1 vector space to design Hamming code (7, 4).
 
 A 0-1 vector space is a specific type of vector space where the vectors consist of elements that are either 0 or 1. In other words, each component of the vectors can take only one of two possible values: 0 or 1.
 
@@ -57,6 +57,19 @@ $$ \alpha v=\begin{bmatrix} \alpha v_1 \\
   \end{bmatrix} $$
 
 
-# Hamming code
+# Assignment
+1. Let matrix $A$ be
+$$ A = \begin{bmatrix}
+       1 & 0 & 0 & 0 \\
+       0 & 1 & 0 & 1 \\
+       0 & 0 & 1 & 0 \\
+       0 & 0 & 0 & 1 \\
+       1 & 1 & 1 & 0 \\
+       1 & 1 & 0 & 1 \\
+       1 & 0 & 1 & 1
+       \end{bmatrix},
+$$
+   and $x \in F^4$.  Show that $y = Ax$ is the same as the encoded result using the set method.
+2. 
 
 
