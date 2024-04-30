@@ -87,9 +87,9 @@ $$ H=\begin{bmatrix}
          \end{bmatrix}.
 $$
    
-   Show that the encoded message $y$ does not have any single bit error if and only if $Hy = 0$.
+   Show that the encoded message $y$ does not have any single bit error if and only if $Hy = 0$. 
+   A single bit error of $y$ is $y+e_i$, where $e_i$ is the $i$-th column vector of an identity matrix $I$.
 
-7. 
- 
-   
+5. (20%) Show that with single bit error, if $Hy = v \ne 0$, $v$ must be a column vector of $H$.  Suppose $v$ is the $i$-th column vector of $H$, the $i$-th element of $x$ has an error.
 
+6. (20%) The size of $H$ is $3\times 7$. Question 5 imples each column vector of $H$ is unique, and there are 7 column vectors of $H$.  For $F^3$, th 7 column vectors contain all possible combinations of $F^3$ except 0.  Could you explain why $H$ has such wonderful properties. 
