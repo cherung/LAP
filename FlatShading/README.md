@@ -12,8 +12,7 @@ There are two commonly used light effect to determine the color of a polygon.  T
   <img src="reflection.png" alt="reflection" width="400px">
 </p>
 
-The intensity of the diffusion light is determined by several factors, including light source, surface normal, and viewer's position.  As shown in the above figure, which is retrieved from https://math.hws.edu/graphicsbook/c7/s2.html, vector *N* is the surface normal; vector *V* is where the position of the viewer; vector *L* is the light source, and vector *R* is the reflection of the light.
-
+The intensity of the diffusion light is determined by several factors, including light source, surface normal, and viewer's position.  As shown in the above figure, which is retrieved from https://math.hws.edu/graphicsbook/c7/s2.html, vector *N* is the surface normal; vector *V* is where the position of the viewer; vector *L* is the light source, and vector *R* is the reflection of the light.  The law of reflection says that the angle between *L* and *N*, $\alpha$, is the same the angle btween *R* and *N*, and they are on the same plane.  Moreover, the intensity of the diffusion light is proportional to the cosine of the angle between *R* and *V*, $\cos(\beta)$.
 
 
 
