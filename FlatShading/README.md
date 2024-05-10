@@ -10,4 +10,4 @@ There are two commonly used light effect to determine the color of a polygon.  T
 
 
 
-<img src="icosahedron_noframe.gif" alt="Icosahedron" width="400px">
+<img src="icosahedron_noframe.gif" alt="Icosahedron" width="800px">
