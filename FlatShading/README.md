@@ -6,6 +6,8 @@ Flat shading is a basic technique used in computer graphics to render three-dime
   <img src="diffusion.png" alt="diffusion" width="200px">
 </p>
 
-There are two commonly used light effect to determine the color of a polygon.  The first one is the ambient light (natural light), which is directionless and everywhere.  An object of the same color with ambient light only has the one color for every polygon, as the image shown on the left image above.    
+There are two commonly used light effect to determine the color of a polygon.  The first one is the ambient light (natural light), which is directionless and everywhere.  An object of the same color with ambient light only has the one color for every polygon, as the image shown on the left. The second one is called the diffusion light, by which different polygons have different color intensity based on where the light source is.  An example of diffusion lighting is shown on the right image above.
+
+
 
 <img src="icosahedron_noframe.gif" alt="Icosahedron" width="400px">
