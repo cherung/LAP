@@ -12,8 +12,8 @@ There are two commonly used light effect to determine the color of a polygon.  T
   <img src="reflection.png" alt="reflection" width="400px">
 </p>
 
-The intensity of the diffusion light 
-https://math.hws.edu/graphicsbook/c7/s2.html
+The intensity of the diffusion light is determined by several factors, including light source, surface normal, and viewer's position.  As shown in the above figure, which is retrieved from https://math.hws.edu/graphicsbook/c7/s2.html, vector *N* is the surface normal, vector *V*
+
 
 
 
