@@ -16,4 +16,18 @@ The intensity of the diffusion light is determined by several factors, including
 
 <img src="icosahedron_noframe.gif" alt="Icosahedron" width="500px">
 
-In this project, we will learn how to compute the flat shading of a given object.  The object we used is from https://github.com/nopjia/tracer/blob/master/data/icosahedron.obj, which is an .obj file.  From the 
+In this project, we will learn how to compute the flat shading of a given object.  The object we used is from https://github.com/nopjia/tracer/blob/master/data/icosahedron.obj, which is an .obj file.  A obj file gives the 3D coordinates of vertices and records the faces with the bounding vertices in order.  Above animation shows how the intensity of faces change when the light source is moving around the icosahedron.
+
+# Assignments
+1. (15 %) Complete the function **compute_lookat(azim, elev)**, which computes the viewer's direction $V$.  Originally, the viewer is looking at from the direction $[x, y, z] = [1, 0, 0]$.  But when the plot is shown, the viewer's direction will be changed.  How the position changes is characterized by two variables: azimuth and elevation, whose definition can be found here https://matplotlib.org/stable/api/toolkits/mplot3d/view_angles.html.  Please normalize the vector $V$ when return it.
+2. (15 %) Complete the function **compute_normal(P1, P2, P3)**, which computes the surface normal $N$ of each face from three vertices $P1, P2, P3$.
+3. (15 %) Complete the function **visible(face_normal, lookat)**, which determines whether a face is visible from the viewer's direction.  The argument face_normal is $N$ and lookat is $V$.
+4. (15 %) Complete the function **compute_intensity(face_normal, lookat, lightsource)**, which calculates the intensity of the diffusion lighting.
+5. (20 %) Perform at least two tasks from the following list, and describe what you have done.
+    1. Change a model.
+    2. Give each face of the model a different color.
+    3. Change the movemnt of the light source.
+    4. Othere interesting changes
+6. (20 %) There is a type of terms, called **vn** (vertex normal), in the obj file.  Answer the following questions.
+   1. How to compute the vertex normal?  Use an example in the icosahedron.obj to illustate the algorithm.
+   2. What are the applications of vertex normal?  Give at least one application with examples.  Cite the sourc properly.  
